@@ -1,0 +1,4 @@
+function clear_checkout_fields($input){
+    return '';
+}
+add_filter( 'woocommerce_checkout_get_value' , 'clear_checkout_fields' );
